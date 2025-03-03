@@ -1,0 +1,97 @@
+@font-face { font-family: 'Montserrat'; src: url('../fonts/Montserrat-VariableFont_wght.ttf'); }
+@font-face {
+    font-family: 'Autography';
+    src: url('../fonts/Autography.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-family: 'Montserrat';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    padding: 20px 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 50%;
+    list-style: none;
+    margin-right: 70px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #0088be;
+}
+
+nav h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 100px;
+    font-family: 'Autography';
+}
+
+.bg-image{
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0) 0%,rgb(12,28,43)50%), url(../photos/Ivan2.JPEG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainDiv1{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 900px;  
+}
+
+.mainDiv1 h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#div1-p1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0088be;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+#div1-p2{
+    font-size: 20px;
+    font-weight: 300;   
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
