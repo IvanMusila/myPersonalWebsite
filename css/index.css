@@ -28,7 +28,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 400;
     width: 50%;
     list-style: none;
@@ -47,14 +47,14 @@ a:hover{
 
 nav h3{
     color: #fff;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 400;
     margin-left: 100px;
     font-family: 'Autography';
 }
 
 .bg-image{
-    background-image: linear-gradient(to left,rgba(0, 0, 0, 0) 0%,rgb(12,28,43)50%), url(../photos/Ivan2.JPEG);
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0) 0%,rgb(12,28,43)43%), url(../photos/Ivan2.JPEG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,3 +95,23 @@ nav h3{
     text-align: center;
 }
 
+#div1-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0c1c2b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #0088be;
+    width: 200px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+#div1-btn:hover{
+    background-color: #0c1c2b;
+    color: #0088be;
+    border: 2px solid #0088be;
+}
